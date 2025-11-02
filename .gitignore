@@ -1,0 +1,39 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/.turbo/
+
+# GitHub Pages build artifacts (local)
+.cache/
+
+# Hardhat/Foundry
+backend/cache/
+backend/artifacts/
+
+# Videos and media
+*.mp4
+
+
