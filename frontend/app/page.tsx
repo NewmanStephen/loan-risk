@@ -43,7 +43,7 @@ export default function Page() {
     return status;
   };
 
-  // Full address display as requested
+  // Format address for display
   const formatAddress = (addr?: string) => addr ?? "-";
 
   return (
