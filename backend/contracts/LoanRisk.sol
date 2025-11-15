@@ -6,6 +6,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 
 /// @title LoanRisk - Privacy-preserving loan risk pricing using Zama FHEVM
 /// @notice Borrowers upload encrypted credit data; the contract computes encrypted risk and rate
+/// @dev Uses FHEVM for homomorphic encryption operations
 contract LoanRisk is ZamaEthereumConfig {
     struct BorrowerData {
         euint16 creditScore;      // e.g., 300..850
