@@ -3,7 +3,6 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { FhevmInstance } from "./fhevmTypes";
 import { createFhevmInstance } from "./internal/fhevm";
 
-// Internal assertion helper
 function _assert(condition: boolean, message?: string): asserts condition {
   if (!condition) {
     const m = message ? `Assertion failed: ${message}` : `Assertion failed.`;
