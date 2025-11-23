@@ -3,7 +3,6 @@ import "@nomicfoundation/hardhat-ethers";
 import "hardhat-deploy";
 import type { HardhatUserConfig } from "hardhat/config";
 
-// Network configuration
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL || "";
 const MNEMONIC = process.env.MNEMONIC || "";
 

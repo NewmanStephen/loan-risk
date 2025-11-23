@@ -5,7 +5,6 @@
     "moduleResolution": "Node",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
     "types": ["node", "hardhat"],
     "outDir": "dist",
     "resolveJsonModule": true

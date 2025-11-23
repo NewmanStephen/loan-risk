@@ -212,10 +212,4 @@ button.secondary:hover:not(:disabled) {
   margin: 24px 0;
 }
 
-/* Improve accessibility for focus states */
-button:focus-visible {
-  outline: 2px solid #1e3a8a;
-  outline-offset: 2px;
-}
-
 

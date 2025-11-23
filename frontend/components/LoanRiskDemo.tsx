@@ -234,7 +234,7 @@ export default function LoanRiskDemo({
     }
   }, [instance, signer, contractInfo?.address, riskLevelHandle, rateHandle, sameChain, sameSigner, chainId]);
 
-  const getRiskLevelLabel = (level: string | bigint | boolean): string => {
+  const getRiskLevelLabel = (level: string | bigint | boolean) => {
     const levelNum = Number(level);
     if (levelNum === 0) return "A (Excellent)";
     if (levelNum === 1) return "B (Good)";
